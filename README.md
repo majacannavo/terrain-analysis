@@ -1,29 +1,27 @@
-# terrain-analysis
-
 This script automates a number of common steps of terrain analysis in QGIS.
 
 Outputs:
-    -Mosaicked and resampled (as necessary) DEM, saved to outputs folder
+- Mosaicked and resampled (as necessary) DEM, saved to outputs folder
         and displayed on map
-    -Hillshade, saved to outputs folder and displayed on map using 
-        cumulative count cut symbology (the grayscale color ramp is stretched 
-        between the 2nd and 98th percentiles of the raster's values)
-    -DEM converted to vertical units of feet, saved to outputs folder
-    -Base and index contours (vector), saved to outputs folder and displayed on map
-    -Slope as percent (raster), saved to outputs folder and displayed on map 
-        using a classified color scheme
-    -Classified slope (raster), saved to outputs folder
-    -Vectorized classified slope, saved to outputs folder and displayed on map 
-        using the same classified color scheme as the raster slope layer
-    -Aspect (raster), saved to outputs folder and displayed on map using a 
-        rainbow color gradient
-    -Classified aspect (raster), saved to outputs folder
-    -Vectorized classified aspect, saved to outputs folder and displayed on map
-        using a classified color scheme matching the rainbow color gradient
-        of the raster aspect layer
-    -Filled DEM (used for drainage analysis), saved to outputs folder
-    -Vector channel network (drainage), saved to outputs folder and displayed 
-        on map using a classified color scheme based on Strahler order
+- Hillshade, saved to outputs folder and displayed on map using 
+    cumulative count cut symbology (the grayscale color ramp is stretched 
+    between the 2nd and 98th percentiles of the raster's values)
+- DEM converted to vertical units of feet, saved to outputs folder
+- Base and index contours (vector), saved to outputs folder and displayed on map
+- Slope as percent (raster), saved to outputs folder and displayed on map 
+    using a classified color scheme
+- Classified slope (raster), saved to outputs folder
+- Vectorized classified slope, saved to outputs folder and displayed on map 
+    using the same classified color scheme as the raster slope layer
+- Aspect (raster), saved to outputs folder and displayed on map using a 
+    rainbow color gradient
+- Classified aspect (raster), saved to outputs folder
+- Vectorized classified aspect, saved to outputs folder and displayed on map
+    using a classified color scheme matching the rainbow color gradient
+    of the raster aspect layer
+- Filled DEM (used for drainage analysis), saved to outputs folder
+- Vector channel network (drainage), saved to outputs folder and displayed 
+    on map using a classified color scheme based on Strahler order
     
 Maja Cannavo, Rhumb Line Maps, July 2020
 
@@ -63,3 +61,5 @@ BEFORE YOU RUN THE SCRIPT:
             included in the channel network) you'd like to use for channel computation.
             The lower the number, the more detailed your channel network will be.
 *********************************************************************************
+
+
