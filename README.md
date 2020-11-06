@@ -1,4 +1,5 @@
-This script automates a number of common steps of terrain analysis in QGIS.
+# terrain-analysis
+#### This script automates a number of common steps of terrain analysis in QGIS.
 
 Outputs:
 - Mosaicked and resampled (as necessary) DEM, saved to outputs folder
